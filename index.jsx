@@ -18,6 +18,7 @@ function createComponent(name) {
     }
     
     render() {
+      console.log(name + ' is render.');
       return (
         <div className={'node ' + name} data-name={name}>
           {this.props.children}
